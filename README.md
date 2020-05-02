@@ -2,7 +2,7 @@
 
 Here, is presented the training process of my impending to publish project/paper **Adaptive Content-Aware Influence Maximization through Online Stochastic Ranking** in the "IEEE Transactions on Knowledge and Data Engineering" - **TKDE** journal. In short, that project is mentioned as **ACAIM**, since it introduces and studies the novel ACAIM problem.
 
-I stress that the input files that I provide here to run the training in ACAIM are randomly-created and tiny VK (https://VK.com) samples compared to the ones used in TKDE version. There, I deal with millions of VK data. Here, I just provide these tiny samples to help one to follow the flow of training by understanding the format of input and output files.
+I stress that the input files that I provide here to run the training in ACAIM are random and tiny VK (https://VK.com) samples compared to the ones used in TKDE version. There, I deal with millions of VK data. Here, I just provide these tiny samples to help one to follow the flow of training by understanding the format of input and output files.
 
 The output of training process is used as input to my testing model for the learning evaluation of ACAIM. The code related with the testing process of ACAIM is not provided here for impending to publication reasons in TKDE journal.
 
