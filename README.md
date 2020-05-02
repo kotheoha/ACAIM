@@ -9,7 +9,7 @@ I stress that the input files that I provide here to run the training in ACAIM a
 `input_files/friends.txt` (row-format: `user_id: friend_id_1,friend_id_2,...,friend_id_n,`)
 * It contains info for the friends that each user has in VK; `n` denotes the last friend of each user.
 
-`input_files/followees.txt` (row-format: `user_id: followee_id_1,followee_id_2,...,followee_n,`)
+`input_files/followees.txt` (row-format: `user_id: followee_id_1,followee_id_2,...,followee_id_n,`)
 * It contains info for the followees that each user has in VK; `n` denotes the last followee of each user.
 
 `input_files/categories.txt` (row-format: `category_name`)
