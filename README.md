@@ -6,4 +6,5 @@ I stress that the input files that I provide here to run the training in ACAIM a
 
 ## Format of Input Files
 
-dede
+`friends.txt` (row-format: `user_id: friend_id_1,friend_id_2,...,friend_id_n,`)
+* It contains info for the friends that each user has in VK 
