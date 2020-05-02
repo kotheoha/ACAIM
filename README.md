@@ -33,3 +33,11 @@ The execution of training for ACAIM is presented in file `acaim_training.cc`. Al
 
 `vis_trained.txt` (row-format: `user_id: visibility_percentage`)
 * It contains info for the `visibility_percentage` associated with each user. The `visibility_percentage` of a user is defined as the percentage of total number of friends and followees of user that should like a post so as the post to be visible to the user.
+
+## Execution
+
+To be able one to execute the `acaim_training.cc` code, it needs first to install the lemon graph library as described here:
+* for Linux: https://lemon.cs.elte.hu/trac/lemon/wiki/InstallLinux
+* for Windows: https://lemon.cs.elte.hu/trac/lemon/wiki/InstallCmake
+
+Then, I personally compile the `acaim_training.cc` code by typing in terminal `g++ -W -O3 acaim_training.cc -std=c++11 -lemon -o ACAIM_TRAIN`, and then execute it as `./ACAIM_TRAIN > LOG.txt`. It is good to have `LOG.txt` to see details so as to better understand the code.
