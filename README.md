@@ -23,3 +23,10 @@ I stress that the input files that I provide here to run the training in ACAIM a
 
 `input_files/user_post_likes/user_post_likes_category_name_year.txt` (row-format: `user_id: post_1,...,post_n`)
 * It contains info for the posts that each user liked in VK in `year` published by features belonging to `category_name`; `n` denotes the most recent post that each user liked in `year`.
+
+## Main Logic of Training
+
+The execution of training for ACAIM is presented in file `acaim_training.cc`. All the previosuly described `.txt` files constitute the input of `acaim_training.cc` and its output is the files `user_features_trained.txt` and `vis_trained.txt`.
+
+`user_features_trained.txt` (row-format: `user_id: feature_id_1|feature_counter_1,...,feature_id_n|feature_counter_n`)
+* It contains info for the segmentation of features in users. For instance, if a user liked 25 posts published by `feature_id_1` in selected training years 2012-2017, then `feature_counter_1 = 25`, while if the same user liked respectively 10 posts of `feature_id_n`, then `feature_counter_n = 10`.
