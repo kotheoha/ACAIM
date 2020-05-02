@@ -31,7 +31,7 @@ The output of training process is used as input to my testing model for the lear
 The execution of training for ACAIM is presented in file `acaim_training.cc`. All the previously described `.txt` files constitute the input of `acaim_training.cc` and its output is the files `user_features_trained.txt` and `vis_trained.txt`.
 
 `user_features_trained.txt` (row-format: `user_id: feature_id_1|feature_cnt_1,...,feature_id_n|feature_cnt_n`)
-* It contains info for the segmentation of features popularity in users. For instance, if a user liked 25 posts in total published by `feature_id_1` in selected training VK years 2012 - 2017, then `feature_cnt_1 = 25`, while if the same user liked respectively 10 posts in total of `feature_id_n`, then `feature_cnt_n = 10`.
+* It contains info for the segmentation of features popularity in users. For instance, if a user liked 25 posts in total published by `feature_id_1` in selected VK training years 2012 - 2017, then `feature_cnt_1 = 25`, while if the same user liked respectively 10 posts in total of `feature_id_n`, then `feature_cnt_n = 10`.
 
 `vis_trained.txt` (row-format: `user_id: visibility_percentage`)
 * It contains info for the `visibility_percentage` of each user. The `visibility_percentage` of a user is defined as the percentage of total number of friends and followees of user that should like a post so as the post to be visible to the user.
