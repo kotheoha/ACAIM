@@ -15,5 +15,5 @@ I stress that the input files that I provide here to run the training in ACAIM a
 `categories.txt` (row-format: `category_name`)
 * It contains the names of the VK categories in which the published posts belong to.
 
-`input_files/posts/category_name/index_category_name.txt` (row-format: `[id: val] [posts: val] [max_likes_per_post: val]`)
+`input_files/posts/category_name/index_category_name.txt` (row-format: `id: n1 posts: n2 max_likes_per_post: n3`)
 * It contains the names
