@@ -6,13 +6,13 @@ I stress that the input files that I provide here to run the training in ACAIM a
 
 ## Input Files
 
-`friends.txt` (row-format: `user_id: friend_id_1,friend_id_2,...,friend_id_n,`)
+`input_files/friends.txt` (row-format: `user_id: friend_id_1,friend_id_2,...,friend_id_n,`)
 * It contains info for the friends that each user has in VK; `n` denotes the last friend of each user.
 
-`followees.txt` (row-format: `user_id: followee_id_1,followee_id_2,...,followee_n,`)
+`input_files/followees.txt` (row-format: `user_id: followee_id_1,followee_id_2,...,followee_n,`)
 * It contains info for the followees that each user has in VK; `n` denotes the last followee of each user.
 
-`categories.txt` (row-format: `category_name`)
+`input_files/categories.txt` (row-format: `category_name`)
 * It contains the names of the VK categories in which the published posts belong to.
 
 `input_files/posts/category_name/index_category_name.txt` (row-format: `id: n1 posts: n2 max_likes_per_post: n3`)
