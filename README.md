@@ -42,4 +42,4 @@ To be able one to execute the `acaim_training.cc` code, it needs first to instal
 * for Linux: https://lemon.cs.elte.hu/trac/lemon/wiki/InstallLinux
 * for Windows: https://lemon.cs.elte.hu/trac/lemon/wiki/InstallCmake
 
-Then, I compile the `acaim_training.cc` code by typing in a terminal/console `g++ -W -O3 acaim_training.cc -std=c++11 -lemon -o ACAIM_TRAIN`, and then execute it as `./ACAIM_TRAIN > LOG.txt`. It is good for one to also output a `LOG.txt` to see details so as to better understand the code.
+Then, it needs to compile the `acaim_training.cc` code by typing in a terminal/console `g++ -W -O3 acaim_training.cc -std=c++11 -lemon -o ACAIM_TRAIN`, and then to execute it as `./ACAIM_TRAIN`.
