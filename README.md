@@ -2,9 +2,9 @@
 
 Here, is presented the training process of my impending to publish project/paper **Adaptive Content-Aware Influence Maximization through Online Stochastic Ranking** in the "IEEE Transactions on Knowledge and Data Engineering" - **TKDE** journal. In short, that project is mentioned as **ACAIM**, since it introduces and studies the novel ACAIM problem.
 
-I stress that the input files that I provide here to run the training in ACAIM are tiny VK (https://VK.com) samples compared to the ones used in TKDE version. There, I deal with millions of VK data. Here, I just provide these tiny samples to show the flow of training and the format of input files. So, no efforts to understand the semantics of training output should be made here.
+I stress that the input files that I provide here to run the training in ACAIM are randomly-created and tiny VK (https://VK.com) samples compared to the ones used in TKDE version. There, I deal with millions of VK data. Here, I just provide these tiny samples to help one to follow the flow of training by understanding the format of input and output files.
 
-## Format of Input Files
+## Input Files
 
 `friends.txt` (row-format: `user_id: friend_id_1,friend_id_2,...,friend_id_n,`)
 * It contains info for the friends that each user has in VK; `n` denotes the last friend of each user.
@@ -24,7 +24,7 @@ I stress that the input files that I provide here to run the training in ACAIM a
 `input_files/user_post_likes/user_post_likes_category_name_year.txt` (row-format: `user_id: post_1,...,post_n`)
 * It contains info for the posts that each user liked in VK in `year` published by features belonging to `category_name`; `n` denotes the most recent post that each user liked in `year`.
 
-## Main Logic of Training
+## Output Files
 
 The execution of training for ACAIM is presented in file `acaim_training.cc`. All the previosuly described `.txt` files constitute the input of `acaim_training.cc` and its output is the files `user_features_trained.txt` and `vis_trained.txt`.
 
