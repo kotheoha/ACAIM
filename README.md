@@ -15,5 +15,5 @@ I stress that the input files that I provide here to run the training in ACAIM a
 `categories.txt` (row-format: `category_name`)
 * It contains the names of the VK categories in which the published posts belong to.
 
-`input_files/posts/category_name/index_category_name.txt` (row-format: `[id: n1] [posts: n2] [max_likes_per_post: n3]`)
-* It contains the names
+`input_files/posts/category_name/index_category_name.txt` (row-format: `id: n1 posts: n2 max_likes_per_post: n3`)
+* It contains info for 10 features/pages belonging to `category_name`. Namely, for a specific row, `n1` is the id of the respective feature/page, `n2` is the total number of posts that `n1` published in VK years 2006-2019, and `n3` is the the maximum number of likes that one of the previously mentioned posts has collected. 
