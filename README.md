@@ -19,7 +19,7 @@ I stress that the input files that I provide here to run the training in ACAIM a
 * It contains info for the 10 most popular features (social network pages) belonging to `category_name`. Namely, for a specific row, `n1` is the id of the respective feature, `n2` is the total number of posts that `n1` published in VK years 2006-2019, and `n3` is the maximum number of likes that one of the previously mentioned posts has collected.
 
 `input_files/posts/category_name/posts_agg/posts_agg_id.txt` (three-row-format: `post_id date_id number_of_likes`)
-* It contains info for all the posts published by feature with `id` in VK years 2006-2019. The row format here is aggregated per three rows. Each three-row pair depicts info for a specific post. Namely, for such a post, the first row is the `post_id` of post, the next one is the `date_id` of post, and the last third one is the `number_of_likes` that post has collected.
+* It contains info for all the posts published by feature with `id` in VK years 2006 - 2019. The row format here is aggregated per three rows. Each three-row pair depicts info for a specific post. Namely, for such a post, the first row is the `post_id` of post, the next one is the `date_id` of post, and the last third one is the `number_of_likes` that post has collected.
 
 `input_files/user_post_likes/user_post_likes_category_name_year.txt` (row-format: `user_id: post_1,...,post_n`)
 * It contains info for the posts that each user liked in VK in `year` published by features belonging to `category_name`; `n` denotes the most recent post that each user liked in `year`.
@@ -29,4 +29,4 @@ I stress that the input files that I provide here to run the training in ACAIM a
 The execution of training for ACAIM is presented in file `acaim_training.cc`. All the previosuly described `.txt` files constitute the input of `acaim_training.cc` and its output is the files `user_features_trained.txt` and `vis_trained.txt`.
 
 `user_features_trained.txt` (row-format: `user_id: feature_id_1|feature_cnt_1,...,feature_id_n|feature_cnt_n`)
-* It contains info for the segmentation of features in users. For instance, if a user liked 25 posts published by `feature_id_1` in selected training years 2012-2017, then `feature_cnt_1 = 25`, while if the same user liked respectively 10 posts of `feature_id_n`, then `feature_cnt_n = 10`.
+* It contains info for the segmentation of features in users. For instance, if a user liked 25 posts published by `feature_id_1` in selected training years 2012 - 2017, then `feature_cnt_1 = 25`, while if the same user liked respectively 10 posts of `feature_id_n`, then `feature_cnt_n = 10`.
