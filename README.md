@@ -24,7 +24,7 @@ The output of training process is used as input to my testing model for the lear
 * It contains info for all the posts published by feature with `id` in VK years 2006 - 2019. The row format here is aggregated per three rows, meaning that each three-row pair depicts info for a specific post. Namely, for such a post, the first row is the `post_id` of post, the second row is the `date_id` of post, and the third row is the `number_of_likes` that post has collected.
 
 `input_files/user_post_likes/user_post_likes_category_name_year.txt` (row-format: `user_id: post_1,...,post_n`)
-* It contains info for the posts that each user liked in VK in `year` published by features belonging to `category_name`; `n` denotes the most recent post that each user liked in `year`.
+* It contains info for the posts that each user liked in VK in `year` published by any of the respective 10 features belonging to `category_name`; `n` denotes the most recent post that each user liked in `year`.
 
 ## Output Files
 
