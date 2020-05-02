@@ -34,7 +34,7 @@ The execution of training for ACAIM is presented in file `acaim_training.cc`. Al
 * It contains info for the segmentation of features popularity in users. For instance, if a user liked 25 posts in total published by `feature_id_1` in selected training years 2012 - 2017, then `feature_cnt_1 = 25`, while if the same user liked respectively 10 posts in total of `feature_id_n`, then `feature_cnt_n = 10`.
 
 `vis_trained.txt` (row-format: `user_id: visibility_percentage`)
-* It contains info for the `visibility_percentage` associated with each user. The `visibility_percentage` of a user is defined as the percentage of total number of friends and followees of user that should like a post so as the post to be visible to the user.
+* It contains info for the `visibility_percentage` of each user. The `visibility_percentage` of a user is defined as the percentage of total number of friends and followees of user that should like a post so as the post to be visible to the user.
 
 ## Execution
 
