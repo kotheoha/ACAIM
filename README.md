@@ -4,7 +4,7 @@ Here, is presented the training process of my impending to publish project/paper
 
 I stress that the input files that I provide here to run the training in ACAIM are random and tiny VK (https://VK.com) samples compared to the ones used in TKDE version. There, I deal with millions of VK data. Here, I just provide these tiny samples to help one to follow the flow of training by understanding the format of input and output files.
 
-The output of training process is used as input to my testing model for the learning evaluation of ACAIM. The code related with the testing process of ACAIM is not provided here for impending to publication reasons in TKDE journal. Last, note that the VK training years I cosider here are 2012 - 2017 (2006 - 2017 in TKDE version), meaning also that the VK testing years are 2018 - 2019.
+The output of training process is used as input to my testing model for the learning evaluation of ACAIM. The code related with the testing process of ACAIM is not provided here for impending to publication reasons in TKDE journal. Last, note that the VK training years I cosider here are 2012 - 2017 (2006 - 2017 in TKDE version), while the VK testing years are 2018 - 2019.
 
 ## Input Files
 
